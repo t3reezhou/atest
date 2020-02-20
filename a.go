@@ -1,11 +1,11 @@
 package atest
 
-type X int
+type X string
 
 var XX []X
 
 func init() {
-	XX = append(XX, 1000)
+	XX = append(XX, "1000")
 }
 
 func Regist(x X) {
