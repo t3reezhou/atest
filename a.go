@@ -1,5 +1,7 @@
 package atest
 
+import "fmt"
+
 type X int
 
 var XX []X
@@ -10,4 +12,5 @@ func init() {
 
 func Regist(x X) {
 	XX = append(XX, x)
+	fmt.Println(">>>>>>>regist", x)
 }
